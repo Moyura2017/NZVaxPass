@@ -1,4 +1,2 @@
 # NZVaxPass
-┌───────┬─────┬──────┬──────┬────────┬─────┬─────────┐
-│ Start │ End │ hex  │  MJ# │ Binary │ Len │ MJ Type │
-└───────┴─────┴──────┴──────┴────────┴─────┴─────────┘
+│ Start │ End │ Hex  │  MJ# │ Binary │ Len │ MJ Type │
