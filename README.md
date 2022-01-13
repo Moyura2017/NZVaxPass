@@ -5,11 +5,7 @@ NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLB
 
 Data structure
 
-│ Start   │  End   │   hex    │  MJ # │    Binary                      │ Len  │ majorType  │
-├─────────┼────────┼──────────┼───────┼────────────────────────────────┼──────┼────────────┤
-│     0   │    8   │      d2  │    6  │  110 1 0010                    │   18 │ tag        │
-│     8   │   16   │      84  │    4  │  100 0 0100                    │    4 │ Array      │
-
+│ Start   │  End   │   hex    │  MJ # │    Binary   │ Len  │ majorType  │
 
 Technical Specification v1
 https://nzcp.covid19.health.nz/
