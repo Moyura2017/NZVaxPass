@@ -1,17 +1,17 @@
-# NZ Vaccine Pass: QR Code Reader
+# NZ Vaccine Pass Decoder
 
 Sample QR code format
 
 	NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLBNR2GQLTOPICRUYMBTIFAIGTUKBAAUYTWMOSGQQDDN5XHIZLYOSBHQJTIOR2HA4Z2F4XXO53XFZ3TGLTPOJTS6MRQGE4C6Y3SMVSGK3TUNFQWY4ZPOYYXQKTIOR2HA4Z2F4XW46TDOAXGG33WNFSDCOJONBSWC3DUNAXG46RPMNXW45DFPB2HGL3WGFTXMZLSONUW63TFGEXDALRQMR2HS4DFQJ2FMZLSNFTGSYLCNRSUG4TFMRSW45DJMFWG6UDVMJWGSY2DN53GSZCQMFZXG4LDOJSWIZLOORUWC3CTOVRGUZLDOSRWSZ3JOZSW4TTBNVSWISTBMNVWUZTBNVUWY6KOMFWWKZ2TOBQXE4TPO5RWI33CNIYTSNRQFUYDILJRGYDVAYFE6VGU4MCDGK7DHLLYWHVPUS2YIDJOA6Y524TD3AZRM263WTY2BE4DPKIF27WKF3UDNNVSVWRDYIYVJ65IRJJJ6Z25M2DO4YZLBHWFQGVQR5ZLIWEQJOZTS3IQ7JTNCFDX
 
-# Data structure
+# Data Structure
 	
-	┌─────┬───────┬───────┬──────┬──────┬────────────┬──────┬───────┐  
-    │   # │ Start │  End  │ Hex  │ MJ # │   Binary   │ Len  │MJ Type│  
-    ├─────┼───────┼───────┼──────┼──────┼────────────┼──────┼───────┤  
-    │   1 │     0 │     8 │   d2 │    6 │ 110 1 0010 │   18 │ Tag   │  
-    │   2 │     8 │    16 │   84 │    4 │ 100 0 0100 │    4 │ Array │  
-    │   3 │    16 │    24 │   4a │    2 │ 010 0 1010 │   80 │ bstr  │
+	┌─────┬───────┬───────┬──────┬──────┬────────────┬─────┬───────┐  
+    │  #  │ Start │  End  │ Hex  │ MJ # │   Binary   │ Len │MJ Type│  
+    ├─────┼───────┼───────┼──────┼──────┼────────────┼─────┼───────┤  
+    │   1 │     0 │     8 │   d2 │    6 │ 110 1 0010 │  18 │   Tag │  
+    │   2 │     8 │    16 │   84 │    4 │ 100 0 0100 │   4 │ Array │  
+    │   3 │    16 │    24 │   4a │    2 │ 010 0 1010 │  80 │  bstr │  
 
 Technical Specification v1
 https://nzcp.covid19.health.nz/
