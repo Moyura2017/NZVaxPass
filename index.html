@@ -1,19 +1,28 @@
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NZ Vaccine Pass</title>
-    <link rel="stylesheet" href="styles.css">
+    <title >NZ Vaccine Pass</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
 
 <body>
-    <h1>NZ Vaccine Pass Decoder</h1>
+    <h1 id='demo'>NZ Vaccine Pass Decoder</h1>
     <label for="qrcode">QR Code:</label><br>
     <input type="text" id="qrcode" name="qrcode" value="NZCP:/1/..."></input> <br><br>
-    <button type="button" onclick="alert('Working on it!')">Working on it!</button>
+    <!-- <button type="button" onclick="alert('Working on it!')">Working on it!</button> -->
+    <button type="button" onclick="sayHi('ss')">Working on it!</button>
     
-    <script type="module" src="main.js"></script>    
+    <!-- <script type="module" src="./main.js"></script> -->
+    <script type="module">
+        
+        import {admin} from './modulues/admin.js';
+        admin.name = "Pete";
+
+        
+    </script>
+
 </body>
 </html>

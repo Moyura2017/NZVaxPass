@@ -1,5 +1,14 @@
-body{
+h1 {
+    color: #7298EF;
+}
+
+body {
     margin: 0;
-    background: peachpuff;
+    background: rgb(47, 51, 58);
+    color: #D1D9E4;
     text-align: center;
+}
+
+p {
+    color: #D1D9E4;
 }
