@@ -1,28 +1,49 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >NZ Vaccine Pass</title>
-    <link rel="stylesheet" href="./styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>NZ Vaccine Pass</title>
 </head>
 
 <body>
-    <h1 id='demo'>NZ Vaccine Pass Decoder</h1>
-    <label for="qrcode">QR Code:</label><br>
-    <input type="text" id="qrcode" name="qrcode" value="NZCP:/1/..."></input> <br><br>
-    <!-- <button type="button" onclick="alert('Working on it!')">Working on it!</button> -->
-    <button type="button" onclick="sayHi('ss')">Working on it!</button>
-    
-    <!-- <script type="module" src="./main.js"></script> -->
-    <script type="module">
-        
-        import {admin} from './modulues/admin.js';
-        admin.name = "Pete";
+    <h1 id="title">NZ Vaccine Pass Decoder</h1>
+    <label id="lblqrcode" for="txtqrcode">QR Code &nbsp;</label>
+    <input id="txtqrcode" name="txtqrcode" type="text" value="NZCP:/1/..." autocomplete="off"></input> <br><br>
+    <button id="btnclear">Clear</button>
+    <button id="btndecode">Decode</button>
 
+    <script type="module">
+        import { decode } from './js/main.js';
+
+        window.addEventListener('click', e => {
+            switch (e.target.id) {
+                case 'btndecode':
+                    btnDecodeClick();
+                    break;
+                case 'btnclear':
+                    btnClearClick();
+                    break;
+            }
+        })
+
+        function btnDecodeClick() {
+            var qc = document.getElementById("txtqrcode").value;
+            console.log('QR Code: ' + qc);
+            decode(qc);
+            console.log('Path: '+import.meta.url);
+        }
+
+        function btnClearClick() {
+            document.getElementById("txtqrcode").value = "";
+            console.clear();
+        }
         
     </script>
 
 </body>
+
 </html>
