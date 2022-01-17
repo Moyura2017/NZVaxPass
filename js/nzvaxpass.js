@@ -2,7 +2,7 @@ export function decoder(qrCode) {
   // qrCode='';
   // throw 500
   
-  if (qrCode.length == 0) throw new Error('Empty Payload');
+  if (qrCode.length == 0) throw new Error('Empty payload');
   var payload = qrCode.split('/');
   //console.log('var: ' + (payload[1]) );
 
