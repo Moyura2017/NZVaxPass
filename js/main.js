@@ -2,9 +2,7 @@ import { decoder } from './nzvaxpass.js';
 export function decode(qrCode) {
     // try {
         return decoder(qrCode);
-    // } catch (err) {
-    //     console.log('Error(main.js): ' + err.message);
-    // }
+    // } catch (err) { console.log('Error(main.js): ' + err.message); }
 }
 
 //console.clear();

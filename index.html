@@ -43,7 +43,6 @@
             var qc = document.getElementById("txtqrcode").value;
             var result = document.getElementById("result");
             try {
-                
                 result.innerHTML = decode(qc);
             }catch(err) {
                 result.innerHTML=err;
