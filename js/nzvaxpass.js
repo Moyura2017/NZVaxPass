@@ -10,5 +10,5 @@ export function decoder(qrCode) {
   if(payload[1] != 1) throw new Error('Invalid payload version');
   payload=payload[2];
 
-  console.log(payload);
+  return payload;
 }

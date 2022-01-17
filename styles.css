@@ -11,4 +11,5 @@ body {
 
 p {
     color: #D1D9E4;
+    word-wrap: break-word;
 }
