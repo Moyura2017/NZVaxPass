@@ -1,4 +1,4 @@
-export function decoder(qrCode) {
+export const decoder = qrCode => {
   // qrCode='';
   // throw 500
   
