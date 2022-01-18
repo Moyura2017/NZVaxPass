@@ -30,6 +30,7 @@ Sample QR code base-32 string, [source: MOH](https://nzcp.covid19.health.nz/#val
 * [Import/Export Modules](https://javascript.info/modules-intro#what-is-a-module)
 * [README.md The Ultimate Guide to Markdown](https://gist.github.com/cuonggt/9b7d08a597b167299f0d)
 * CBOR
+  * [Blockchain tutorial 31: Base-32 encoding](https://youtu.be/Va8FLD-iuTg)
   * [CBOR-struc-explain](https://www.youtube.com/watch?v=1TNPDdoij1Q)
   * [CBOR 2](https://youtu.be/thSWuJ-1ld0)
   * [cbor.me](https://youtu.be/HcvJpSnIQuk)
