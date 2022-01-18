@@ -22,7 +22,7 @@ Sample QR code base-32 string, [source: MOH](https://nzcp.covid19.health.nz/#val
          OUTPUT INQXI===
       
 
-# Byte String Data Structure
+# NZVacPass Byte String Data Structure
 	
 	
     ┌───────┬───────┬───────┬──────┬──────┬────────────┬──────┬───────┬──────────────────────────────────────────────────────────
