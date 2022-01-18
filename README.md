@@ -19,6 +19,7 @@
          OUTPUT INQXI===
       
 
+<<<<<<< HEAD
 # Byte String Data Structure
 Sample QR code base-32 string, [source: MoH](https://nzcp.covid19.health.nz/#valid-worked-example)
 
@@ -26,6 +27,11 @@ Sample QR code base-32 string, [source: MoH](https://nzcp.covid19.health.nz/#val
 
 
 
+=======
+# NZVacPass Byte String Data Structure
+	
+	
+>>>>>>> 7d2c20ad334613c4e8807ea2259947102efe1d49
     ┌───────┬───────┬───────┬──────┬──────┬────────────┬──────┬───────┬──────────────────────────────────────────────────────────
     │   #   │ Start │  End  │ Hex  │ MJ # │   Binary   │ Len  │MJ Type│ Description  
     ├───────┼───────┼───────┼──────┼──────┼────────────┼──────┼───────┼──────────────────────────────────────────────────────────
