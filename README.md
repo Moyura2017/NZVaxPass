@@ -24,13 +24,13 @@
 NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLBNR2GQLTOPICRUYMBTIFAIGTUKBAAUYTWMOSGQQDDN5XHIZLYOSBHQJTIOR2HA4Z2F4XXO53XFZ3TGLTPOJTS6MRQGE4C6Y3SMVSGK3TUNFQWY4ZPOYYXQKTIOR2HA4Z2F4XW46TDOAXGG33WNFSDCOJONBSWC3DUNAXG46RPMNXW45DFPB2HGL3WGFTXMZLSONUW63TFGEXDALRQMR2HS4DFQJ2FMZLSNFTGSYLCNRSUG4TFMRSW45DJMFWG6UDVMJWGSY2DN53GSZCQMFZXG4LDOJSWIZLOORUWC3CTOVRGUZLDOSRWSZ3JOZSW4TTBNVSWISTBMNVWUZTBNVUWY6KOMFWWKZ2TOBQXE4TPO5RWI33CNIYTSNRQFUYDILJRGYDVAYFE6VGU4MCDGK7DHLLYWHVPUS2YIDJOA6Y524TD3AZRM263WTY2BE4DPKIF27WKF3UDNNVSVWRDYIYVJ65IRJJJ6Z25M2DO4YZLBHWFQGVQR5ZLIWEQJOZTS3IQ7JTNCFDX
 ```
 
-    ┌───────┬───────┬───────┬──────┬──────┬────────────┬──────┬───────┬───────────────────────────────────────────
+    ┌───────┬───────┬───────┬──────┬──────┬────────────┬──────┬───────┬──────────────────────────────────────────
     │   #   │ Start │  End  │ Hex  │ MJ # │   Binary   │ Len  │MJ Type│ Description
-    ├───────┼───────┼───────┼──────┼──────┼────────────┼──────┼───────┼───────────────────────────────────────────
+    ├───────┼───────┼───────┼──────┼──────┼────────────┼──────┼───────┼──────────────────────────────────────────
     │  1    │     1 │     6 │      │      │            │    6 │       │ 1st part 'NZCP:/' payload prefix
     │  2    │     7 │     8 │      │      │            │    2 │       │ 2nd part '1/' version identifier
-    │  3    │     9 │  2960 │      │      │            │ 2952 │       │ 3rd part playload 2960(Test)/2992(Pro)bits
-    ├───────┼───────┼───────┼──────┼──────┼────────────┼──────┼───────┼───────────────────────────────────────────
+    │  3    │     9 │  2960 │      │      │            │ 2952 │       │ 3rd part playload 2960(Dev)/2992(Pro)bit
+    ├───────┼───────┼───────┼──────┼──────┼────────────┼──────┼───────┼──────────────────────────────────────────
     │  1    │     0 │     8 │   d2 │    6 │ 110 1 0010 │   18 │   Tag │ Tag #18, cose-sign1 type
     │  2    │     8 │    16 │   84 │    4 │ 100 0 0100 │    4 │ Array │ Array(4)
     │  3    │    16 │    24 │   4a │    2 │ 010 0 1010 │   10 │  bstr │ bstr(10*8)
@@ -48,7 +48,7 @@ NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLB
     │  7.2  │   144 │   152 │   01 │    0 │            │      │  +Num │     {Key:0}, 1  (iss)
     │  7.3  │   152 │   160 │   78 │    3 │ 011 1 1000 │   24 │  Text │        >23(8bits) => next 1 bytes
     │  7.4  │   160 │   168 │   1e │    0 │ 000 1 1110 │   30 │  +Num │        30*8
-    │  7.5  │   168 │   408 │      │      │            │ 8*30 │       │        did:web:nzcp.covid19.health.nz (iss)
+    │  7.5  │   168 │   408 │      │      │            │ 8*30 │       │        did:web:nzcp.covid19.health.nz
     │  7.6  │   408 │   416 │   05 │    0 │            │    5 │  +Num │     {Key:1}, 5  (?)
     │  7.7  │   416 │   424 │   1a │    0 │ 000 1 1010 │   26 │  +Num │       >23 => next 4 bytes
     │  7.8  │   424 │   456 │61819a│    3 │            │  8*4 │       │       {Val:1}, 1635883530 (nbf)
