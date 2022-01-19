@@ -8,12 +8,12 @@
       2  Binary  010000110110000101110010                  24bits
       3 8bit Gp  [   1  ][   2  ][   3  ][   4  ][   5  ]  Convert to a group of 5bytes = 40bits
                  1234567812345678123456781234567812345678
-      4   Add X  010000110110000101110010xxxxxxxxxxxxxxxx  Add padding (X) at the end if less than 5 bytes
+      4   Add X  010000110110000101110010xxxxxxxxxxxxxxxx  Add padding (X) if less than 5 bytes
       5 5bit Gp  [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ]  Convert to a smaller group with 5 bits
                  1234512345123451234512345123451234512345
-                 010000110110000101110010Xxxxxxxxxxxxxxxx
-      6   Add 0  0100001101100001011100100xxxxxxxxxxxxxxx  Replace X with 0 for a chunk has both bits & padding
-      7  To Dec  [ 8 ][13 ][16 ][23 ][ 8 ][ = ][ = ][ = ]  Convert Bin to Dec, replace empty bits (X) with '='
+                 010000110110000101110010Xxxxxxxxxxxxxxxx  Replace X with 0
+      6   Add 0  0100001101100001011100100xxxxxxxxxxxxxxx  for a chunk has both bits & padding
+      7  To Dec  [ 8 ][13 ][16 ][23 ][ 8 ][ = ][ = ][ = ]  Convert Bin/Dec, replace empty bits with =
       8 Base-32  [ I ][ N ][ Q ][ X ][ I ][ = ][ = ][ = ]  Convert Dec to Base-32
          OUTPUT  INQXI===
 
