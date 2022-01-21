@@ -102,14 +102,7 @@ NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLB
     │ 306 │  2960 │  2456 │   d2 │   Tag 6 │ 110 1 0010 │   18 │ Tag #18, COSE_Sign1 structure.
     │ 307 │  2456 │  2464 │   e0 │ Float 7 │ 111 0 0000 │    0 │ 0, nil -- a null value (major type 7, value 22).
     │ 308 │  2464 │  2472 │      │         │            │      │
-    │     │       │       │      │         │            │      │
-    │     │       │       │      │         │            │      │
-    │     │       │       │      │         │            │      │
-    │     │       │       │      │         │            │      │
-    │     │       │       │      │         │            │      │
-    │     │       │       │      │         │            │      │
-    │     │       │       │      │         │            │      │
-
+    └─────┴───────┴───────┴──────┴─────────┴────────────┴──────┘
 # References
 * [NZ Ministry of Health Technical Spec](https://nzcp.covid19.health.nz/)
 * [Goodie01/nzcp4j](https://github.com/Goodie01/nzcp4j/blob/main/src/main/java/org/goodiemania/nzcp4j/impl/Base32.java)
