@@ -6,10 +6,15 @@ body {
     margin: 0;
     background: rgb(47, 51, 58);
     color: #D1D9E4;
-    text-align: center;
+    /* text-align: center; */
 }
 
 p {
     color: #D1D9E4;
     word-wrap: break-word;
+}
+
+td {
+    border: 1px solid rgb(1, 9, 48);
+    /* padding: 2px; */
 }
