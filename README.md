@@ -86,13 +86,13 @@ NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLB
     │ 247 │  1976 │  1984 │   64 │  Text 3 │ 011 0 0100 │    4 │          Text(4)
     │ 248 │  1984 │  2016 │      │  bStr 2 │            │      │           Jack =>      {givenName:Jack,2,3}
     │ 252 │  2016 │  2024 │   6a │  Text 3 │ 011 0 1010 │   10 │        Text(10)
-    │ 253 │  2024 │  2104 │      │         │            │      │         familyName =>  {givenName,familyName,3}
+    │ 253 │  2024 │  2104 │      │         │            │      │         familyName =>  {givenName:Jack, familyName,3}
     │ 263 │  2104 │  2112 │   67 │  Text 3 │ 011 0 0111 │    7 │          Text(7)
-    │ 264 │  2112 │  2168 │      │  bStr 2 │            │      │           Sparrow =>   {givenName:Jack,familyName: Sparrow,3}
+    │ 264 │  2112 │  2168 │      │  bStr 2 │            │      │           Sparrow =>   {givenName:Jack, familyName:Sparrow, 3}
     │ 271 │  2168 │  2176 │   63 │  Text 3 │ 011 0 0011 │    3 │        Text(3)
-    │ 272 │  2176 │  2200 │      │  Text 3 │            │      │         dob =>         {givenName:Jack,familyName: Sparrow,dob}
+    │ 272 │  2176 │  2200 │      │  Text 3 │            │      │         dob =>         {givenName:Jack ,familyName:Sparrow, dob}
     │ 275 │  2200 │  2208 │   6a │  Text 3 │ 011 0 1010 │   10 │          Text(10)
-    │ 276 │  2208 │  2288 │   6a │  -Num 1 │            │      │           1960-04-16 =>{givenName:Jack,familyName: Sparrow,dob:1960-04-16}
+    │ 276 │  2208 │  2288 │   6a │  -Num 1 │            │      │           1960-04-16 =>{givenName:Jack, familyName:Sparrow, dob:1960-04-16}
     │ 286 │  2288 │  2296 │    7 │  +Num 0 │ 000 0 0111 │    7 │  {Key:4}, 7
     │ 287 │  2296 │  2304 │   50 │  bStr 2 │ 010 1 0000 │   16 │  Bytes, length: 16
     │ 288 │  2304 │  2432 │      │  Text 3 │            │      │  60a4f54d-4e30-4332-be33-ad78b1eafa4b => 'urn:uuid:'+'60a4...' 287*8 = 2296 ended
