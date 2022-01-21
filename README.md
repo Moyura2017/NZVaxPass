@@ -99,7 +99,7 @@ NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLB
     │ 304 │  2432 │  2440 │   58 │  bStr 2 │ 010 1 1000 │   24 │  Bytes, length: 24 >23 => next byte
     │ 305 │  2440 │  2448 │   40 │  bStr 2 │ 010 0 0000 │   64 │  d2e07b1dd7263d833166bdbb4f1...
     │ 306 │  2448 │  2960 │      │         │            │      │  end of payload
-    │ 306 │  2960 │  2456 │   d2 │   Tag 6 │ 110 1 0010 │   18 │  Tag #18, COSE_Sign1 structure.
+    │ 306 │  2448 │  2456 │   d2 │   Tag 6 │ 110 1 0010 │   18 │  Tag #18, COSE_Sign1 structure.
     │ 307 │  2456 │  2464 │   e0 │ Float 7 │ 111 0 0000 │    0 │  0, nil -- a null value (major type 7, value 22).
     │ 308 │  2464 │  2472 │      │         │            │      │ 
     └─────┴───────┴───────┴──────┴─────────┴────────────┴──────┘ 
