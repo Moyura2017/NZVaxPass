@@ -93,16 +93,16 @@ NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLB
     │ 272 │  2176 │  2200 │      │  Text 3 │            │      │         dob =>         {givenName:Jack,familyName: Sparrow,dob}
     │ 275 │  2200 │  2208 │   6a │  Text 3 │ 011 0 1010 │   10 │          Text(10)
     │ 276 │  2208 │  2288 │   6a │  -Num 1 │            │      │           1960-04-16 =>{givenName:Jack,familyName: Sparrow,dob:1960-04-16}
-    │ 286 │  2288 │  2296 │    7 │  +Num 0 │ 000 0 0111 │    7 │{Key:4}, 7
-    │ 287 │  2296 │  2304 │   50 │  bStr 2 │ 010 1 0000 │   16 │Bytes, length: 16
-    │ 288 │  2304 │  2432 │      │  Text 3 │            │      │60a4f54d-4e30-4332-be33-ad78b1eafa4b => 'urn:uuid:'+'60a4...' 287*8 = 2296 ended
-    │ 304 │  2432 │  2440 │   58 │  bStr 2 │ 010 1 1000 │   24 │Bytes, length: 24 >23 => next byte
-    │ 305 │  2440 │  2448 │   40 │  bStr 2 │ 010 0 0000 │   64 │d2e07b1dd7263d833166bdbb4f1...
-    │ 306 │  2448 │  2960 │      │         │            │      │end of payload
-    │ 306 │  2960 │  2456 │   d2 │   Tag 6 │ 110 1 0010 │   18 │ Tag #18, COSE_Sign1 structure.
-    │ 307 │  2456 │  2464 │   e0 │ Float 7 │ 111 0 0000 │    0 │ 0, nil -- a null value (major type 7, value 22).
-    │ 308 │  2464 │  2472 │      │         │            │      │
-    └─────┴───────┴───────┴──────┴─────────┴────────────┴──────┘
+    │ 286 │  2288 │  2296 │    7 │  +Num 0 │ 000 0 0111 │    7 │  {Key:4}, 7
+    │ 287 │  2296 │  2304 │   50 │  bStr 2 │ 010 1 0000 │   16 │  Bytes, length: 16
+    │ 288 │  2304 │  2432 │      │  Text 3 │            │      │  60a4f54d-4e30-4332-be33-ad78b1eafa4b => 'urn:uuid:'+'60a4...' 287*8 = 2296 ended
+    │ 304 │  2432 │  2440 │   58 │  bStr 2 │ 010 1 1000 │   24 │  Bytes, length: 24 >23 => next byte
+    │ 305 │  2440 │  2448 │   40 │  bStr 2 │ 010 0 0000 │   64 │  d2e07b1dd7263d833166bdbb4f1...
+    │ 306 │  2448 │  2960 │      │         │            │      │  end of payload
+    │ 306 │  2960 │  2456 │   d2 │   Tag 6 │ 110 1 0010 │   18 │  Tag #18, COSE_Sign1 structure.
+    │ 307 │  2456 │  2464 │   e0 │ Float 7 │ 111 0 0000 │    0 │  0, nil -- a null value (major type 7, value 22).
+    │ 308 │  2464 │  2472 │      │         │            │      │ 
+    └─────┴───────┴───────┴──────┴─────────┴────────────┴──────┘ 
 # References
 * [NZ Ministry of Health Technical Spec](https://nzcp.covid19.health.nz/)
 * [Goodie01/nzcp4j](https://github.com/Goodie01/nzcp4j/blob/main/src/main/java/org/goodiemania/nzcp4j/impl/Base32.java)
