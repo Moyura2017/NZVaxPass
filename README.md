@@ -5,7 +5,7 @@ NZCP:/1/2KCEVIQEIVVWK6JNGEASNICZAEP2KALYDZSGSZB2O5SWEOTOPJRXALTDN53GSZBRHEXGQZLB
 ```
 
     ┌─────┬───────┬───────┬──────┬─────────┬────────────┬──────┬─────────────
-    │Index│ Start │  End  │ Hex  │MajorType│   Binary   │ Len e│ Description
+    │Index│ Start │  End  │ Hex  │MajorType│   Binary   │ Len  │ Description
     ├─────┼───────┼───────┼──────┼─────────┼────────────┼──────┼─────────────
     │   0 │     1 │     6 │      │         │            │    6 │ 1st part 'NZCP:/' payload prefix
     │   1 │     7 │     8 │      │         │            │    2 │ 2nd part '1/' version identifier
