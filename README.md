@@ -20,7 +20,7 @@ d2844aa204456b65792d310126a059011fa501781e6469643a7765623a6e7a63702e636f76696431
           INPUT  C       a       t      =>  INQXI===
       1   ASCII  67      97      116
       2  Binary  010000110110000101110010                  8bit x3 = 24bits
-      3 8bit Gp  [   1  ][   2  ][   3  ][   4  ][   5  ]  Convert to a group of 5bytes = 40bits
+      3 8bit Gp  [   1  ][   2  ][   3  ][   4  ][   5  ]  Convert to a group of 5bytes (5 x8bit) = 40bits
                  1234567812345678123456781234567812345678
       4   Add X  010000110110000101110010xxxxxxxxxxxxxxxx  Add padding (X) if less than 5 bytes
       5 5bit Gp  [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ]  Convert to a smaller group with 5 bits
