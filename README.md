@@ -17,7 +17,7 @@ d2844aa204456b65792d310126a059011fa501781e6469643a7765623a6e7a63702e636f76696431
 
 
                  Encoding CBOR (Concise Binary Object Representation)
-          INPUT  C       a       t
+          INPUT  C       a       t      =>  INQXI===
       1   ASCII  67      97      116
       2  Binary  010000110110000101110010                  24bits
       3 8bit Gp  [   1  ][   2  ][   3  ][   4  ][   5  ]  Convert to a group of 5bytes = 40bits
@@ -28,9 +28,10 @@ d2844aa204456b65792d310126a059011fa501781e6469643a7765623a6e7a63702e636f76696431
                  010000110110000101110010Xxxxxxxxxxxxxxxx  Replace X with 0
       6   Add 0  0100001101100001011100100xxxxxxxxxxxxxxx  for a chunk has both bits & padding
       7  To Dec  [ 8 ][13 ][16 ][23 ][ 8 ][ = ][ = ][ = ]  Convert Bin/Dec, replace empty bits with =
-      8 Base-32  [ I ][ N ][ Q ][ X ][ I ][ = ][ = ][ = ]  Convert Dec to Base-32
-         OUTPUT  INQXI===
-
+      8 Base-32  [ I ][ N ][ Q ][ X ][ I ][ = ][ = ][ = ]  Convert Dec to Base-32 (16x2 = 2 Hex)
+         OUTPUT  INQXI===   
+         Cat  => INQXI===
+         ASCII=> Base-32
 
 
 # NZ Vaccine Pass Byte String Data Structure
